@@ -1,0 +1,12 @@
+[package]
+name = "soroban-cost-linter"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+dylint_linting = "3.1"
+clippy_utils = { git = "https://github.com/rust-lang/rust-clippy" }

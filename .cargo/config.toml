@@ -1,0 +1,5 @@
+[build]
+rustflags = ["-Z", "unstable-options"]
+
+[target.'cfg(all())']
+linker = "dylint-link"
